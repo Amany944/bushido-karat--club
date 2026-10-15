@@ -43,7 +43,9 @@ export default function Shop() {
                 <div className="flex justify-end items-center mt-auto">
                   <a
                     className="bg-transparent border border-on-surface text-on-surface px-4 py-2 font-label-sm hover:bg-on-surface hover:text-background transition-colors uppercase text-xs inline-block"
-                    href={`https://wa.me/242067221312?text=${encodeURIComponent(`*DEMANDE DE COMMANDE - BUSHIDO KARATÉ CLUB*%0A%0A*Article demandé :* ${product.name}%0A*Nom et Prénom :* _À renseigner_%0A*Téléphone :* _À renseigner_%0A*Adresse de livraison :* _À renseigner_%0A*Quantité :* _À renseigner_%0AMerci de me contacter pour finaliser la commande !`)}`}
+                    href={`https://wa.me/242067221312?text=${encodeURIComponent(
+                      `*DEMANDE DE COMMANDE - BUSHIDO KARATÉ CLUB*\n\n*Article demandé :* ${product.name}\n*Nom et Prénom :* _À renseigner_\n*Téléphone :* _À renseigner_\n*Adresse de livraison :* _À renseigner_\n*Quantité :* _À renseigner_\nMerci de me contacter pour finaliser la commande !`
+                    )}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

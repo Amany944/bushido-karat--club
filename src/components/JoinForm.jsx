@@ -64,18 +64,19 @@ export default function JoinForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const message = `*DEMANDE D'INSCRIPTION - BUSHIDO KARATÉ CLUB*%0A%0A` +
-      `*Nom:* ${encodeURIComponent(form.nom)}%0A` +
-      `*Prénom:* ${encodeURIComponent(form.prenom)}%0A` +
-      `*Tranche d'âge:* ${encodeURIComponent(form.age)}%0A` +
-      `*Tuteur (si mineur):* ${encodeURIComponent(form.tuteur || "N/A")}%0A` +
-      `*Dojo choisi:* ${encodeURIComponent(form.dojo)}%0A` +
-      `*Déjà fait du karaté ?* ${encodeURIComponent(form.experience)}%0A` +
-      `*Style Shotokan ?* ${encodeURIComponent(form.shotokan || "N/A")}%0A%0A` +
-      `*Motivations :*%0A${encodeURIComponent(form.motivation)}%0A%0A` +
+    const message =
+      `*DEMANDE D'INSCRIPTION - BUSHIDO KARATÉ CLUB*\n\n` +
+      `*Nom:* ${form.nom}\n` +
+      `*Prénom:* ${form.prenom}\n` +
+      `*Tranche d'âge:* ${form.age}\n` +
+      `*Tuteur (si mineur):* ${form.tuteur || "N/A"}\n` +
+      `*Dojo choisi:* ${form.dojo}\n` +
+      `*Déjà fait du karaté ?* ${form.experience}\n` +
+      `*Style Shotokan ?* ${form.shotokan || "N/A"}\n\n` +
+      `*Motivations :*\n${form.motivation}\n\n` +
       `Cette demande a été envoyée via le site web du Bushido Karaté Club.`;
 
-    const whatsappUrl = `https://wa.me/242067221312?text=${message}`;
+    const whatsappUrl = `https://wa.me/242067221312?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
     setSubmitted(true);
   };
