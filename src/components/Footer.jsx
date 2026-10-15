@@ -1,8 +1,8 @@
 const FOOTER_LINKS = [
   { label: "MENTIONS LÉGALES", href: "#" },
   { label: "POLITIQUE DE CONFIDENTIALITÉ", href: "#" },
-  { label: "CONTACT (WhatsApp)", href: "https://wa.me/242067221312", target: "_blank" },
-  { label: "APPELER", href: "tel:+242067221312" },
+  { label: "CONTACT (WhatsApp)", href: "https://wa.me/242066781995", target: "_blank" },
+  { label: "APPELER", href: "tel:+242066781995" },
   { label: "DOJO", href: "#dojos" },
 ];
 

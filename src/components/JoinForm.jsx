@@ -76,7 +76,7 @@ export default function JoinForm() {
       `*Motivations :*\n${form.motivation}\n\n` +
       `Cette demande a été envoyée via le site web du Bushido Karaté Club.`;
 
-    const whatsappUrl = `https://wa.me/242067221312?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/242066781995?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
     setSubmitted(true);
   };
@@ -118,7 +118,7 @@ export default function JoinForm() {
               </button>
               <div className="mt-4 flex flex-col sm:flex-row gap-3 justify-center">
                 <a
-                  href="https://wa.me/242067221312"
+                  href="https://wa.me/242066781995"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-green-600 text-white px-8 py-4 font-label-sm uppercase hover:bg-green-700 transition-colors"
@@ -126,7 +126,7 @@ export default function JoinForm() {
                   NOUS CONTACTER (WhatsApp)
                 </a>
                 <a
-                  href="tel:+242067221312"
+                  href="tel:+242066781995"
                   className="inline-block bg-blue-600 text-white px-8 py-4 font-label-sm uppercase hover:bg-blue-700 transition-colors"
                 >
                   APPELER MAINTENANT
@@ -261,7 +261,7 @@ export default function JoinForm() {
               </p>
               <div className="mt-6 text-center flex flex-col sm:flex-row gap-3 justify-center">
                 <a
-                  href="https://wa.me/242067221312"
+                  href="https://wa.me/242066781995"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-green-600 text-white px-8 py-4 font-label-sm uppercase hover:bg-green-700 transition-colors"
@@ -269,7 +269,7 @@ export default function JoinForm() {
                   NOUS CONTACTER (WhatsApp)
                 </a>
                 <a
-                  href="tel:+242067221312"
+                  href="tel:+242066781995"
                   className="inline-block bg-blue-600 text-white px-8 py-4 font-label-sm uppercase hover:bg-blue-700 transition-colors"
                 >
                   APPELER MAINTENANT
